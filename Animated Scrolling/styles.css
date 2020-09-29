@@ -1,0 +1,42 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+}
+.sections {
+	position: relative;
+	height: 100vh;
+	padding: 10%;
+	color: white;
+	background-attachment: fixed;
+	background-size: cover;
+	background-blend-mode: multiply;
+}
+.sections h1 {
+	font-size: clamp(4vw,8vw,10vw);
+}
+.sections p {
+	font-size: 1.5em;
+}
+
+.sections:nth-child(1) {
+	background: red url("bg1.jpg");
+}
+.sections:nth-child(2) {
+	background: green url("bg1.jpg");
+}
+.sections:nth-child(3) {
+	background: teal url("bg1.jpg");
+}
+.sections:nth-child(4) {
+	background: purple url("bg1.jpg");
+}
+.sections:nth-child(5) {
+	background: orange url("bg1.jpg");
+}
