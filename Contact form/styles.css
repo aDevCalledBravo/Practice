@@ -119,7 +119,7 @@ h3 {
 
 input[type="button"] {
 	flex: 25%;
-	margin: 0 1%;
+	margin: 1%;
 }
 input[name="web-design"] {
 	margin-left: 0;
@@ -155,6 +155,10 @@ footer a {
 @media (max-width: 767px) {
 	.flex {
 		display: block;
+	}
+	form {
+		margin: 0 5%;
+		text-align: left;
 	}
 	input,
 	textarea {
