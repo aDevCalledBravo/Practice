@@ -1,10 +1,12 @@
+html {
+	scroll-behavior: smooth;
+}
 * {
 	margin: 0;
 	padding: 0;
 }
 
 .container {
-	position: relative;
 	width: 100%;
 	height: 100%;
 	overflow: auto;
@@ -14,15 +16,22 @@
 	height: 100vh;
 	padding: 10%;
 	color: white;
-	background-attachment: fixed;
-	background-size: cover;
+	background-attachment: fixed !important;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
 	background-blend-mode: multiply;
+	overflow: hidden;
 }
 .sections h1 {
+	position: absolute;
+	bottom: 20em;
 	font-size: clamp(4vw,8vw,10vw);
 }
 .sections p {
 	font-size: 1.5em;
+	position: absolute;
+	bottom: 10em;
 }
 
 .sections:nth-child(1) {
