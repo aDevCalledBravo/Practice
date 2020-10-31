@@ -5,6 +5,8 @@
 #### Pssst... Open the links in new tabs 
 ### [Animated Scrolling][1]
 ### [Contact Form][2]
+### [Background Changer][3]
 
 [1]: https://
 [2]: https://adevcalledbravo.github.io/Practice/Contact%20form/index.html
+[3]: https://adevcalledbravo.github.io/Practice/Background%20changer/index.html
