@@ -1,12 +1,29 @@
-# Practice
-## This repository contains all designs I implement, that are not from official sites like frontendmentor.io, etc
-## Below are links to hosted pages of all the folders here.
-## Feel free to star, fork, share and most importantly, send feedback on how I can improve. Thanks.
-#### Pssst... Open the links in new tabs 
-### [Animated Scrolling][1]
-### [Contact Form][2]
-### [Background Changer][3]
+Okayyyy 🤩
 
-[1]: https://
-[2]: https://adevcalledbravo.github.io/Practice/Contact%20form/index.html
-[3]: https://adevcalledbravo.github.io/Practice/Background%20changer/index.html
+### This repository contains most of the web-ish things I've built
+
+The files, folders and links are in different branches, corresponding to the source of the designs.
+
+Now, it is time for you... to be amazed
+
+Things you could do:
+* Fork the repository
+* Send me feedback on the sites _(pretty please?)_
+* Star the repository _(I heard that's what kings do)_
+* Share to friends and fam
+* Follow me _(I have no idea where we're going tho' 😂🤣)_
+* Send me money
+    * [Flutterwave][flutterwave]
+    * [Abeg][abeg]: @bravo
+* Contact meeeeeee
+    * [Twitter][twitter]
+    * [Whatsapp][whatsapp]
+    * Any other means of communnication I forgot?
+
+###### Men(and women) of honor, shall we?
+
+
+[flutterwave]: https://flutterwave.com/pay/chillwithbravo
+[abeg]: https://abeg.app
+[twitter]: https://twitter.com/zeroth_bravo
+[whatsapp]: https://wa.me/2347088148692
