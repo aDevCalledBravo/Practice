@@ -1,10 +1,9 @@
-# Practice
-## This repository contains all designs I implement, that are not from official sites like frontendmentor.io, etc
-## Below are links to hosted pages of all the folders here.
-## Feel free to star, fork, share and most importantly, send feedback on how I can improve. Thanks.
-#### Pssst... Open the links in new tabs 
-### [Animated Scrolling][1]
-### [Contact Form][2]
+### 404: Nothing here Yet
 
-[1]: https://
-[2]: https://adevcalledbravo.github.io/Practice/Contact%20form/index.html
+Daddy [Acetech][acetech] has really cool stuffs y'all 🥺🥺
+
+Nobody mixes elegance with humor like himmm
+
+You can expect me to start implementing his designs ASAP
+
+[acetech]: https://twitter.com/officialacetec1
