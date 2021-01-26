@@ -1,0 +1,135 @@
+
+
+
+// Hero Section
+section.hero {
+    padding-top: 15%;
+    padding-bottom: 15%;
+    background: url("../images/hero.jpg") no-repeat center;
+    background-size: cover;
+
+    h1 {
+        margin: 0 45% 0 0;
+        color: #fff;
+        font-size: 3em;
+        font-weight: 700;
+    }
+}
+
+// About Section
+section.about {
+    div.heading-column {
+        a {
+            display: block;
+            margin: 20% 0 0 20%;
+
+            i {
+                padding-left: 10%;
+            }
+        }
+    }
+}
+
+// What the About Section and Featured Places Section have in common
+section.about,
+section.featured-places {
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+
+// Featured Places
+section.featured-places {
+    div.heading-column {
+        padding-top: 10%;
+    }
+}
+
+
+// G2N FOODS
+section.g2n-foods {
+    div.flex-the-heading {
+        .left-column {
+            flex: 60%;
+            padding: 10% 5%;
+            background-color: #F1F1F1;
+
+            h1 {
+                margin: 0 60% 5% 0;
+            }
+        }
+
+        .right-column {
+            flex: 40%;
+            padding: 10% 5%;
+            text-align: right;
+
+            img {
+                position: absolute;
+                margin: -5% 0 0 -45%;
+            }
+
+            p.grayish-section-number {
+                position: unset;
+                margin: unset;
+                margin: 0 0 -20% 10%;
+            }
+        }
+    }
+
+    div.three-column-flex-container {
+        margin: 5% 0 0;
+
+        .column {
+            margin: 0 2.5%;
+        }
+
+        .first-column {
+            margin-left: 0;
+        }
+
+        .third-column {
+            margin-right: 0;
+        }
+    }
+}
+
+// Blogs
+section.blogs {
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    div.heading-column {
+        padding-top: 10%;
+    }
+}
+
+// McDonalds
+section.mcdonalds {
+    .left-column {
+        flex: 65%;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .right-column {
+        flex: 35%;
+        text-align: center;
+
+        address {
+            margin: 5% 20%;
+            font-size: 0.875em;
+            font-style: normal;
+        }
+
+        p {
+            margin: 2% 20%;
+            font-size: 0.75em;
+            color: $grayish-text-color;
+        }
+
+        button {
+            width: 30%;
+        }
+    }
+}

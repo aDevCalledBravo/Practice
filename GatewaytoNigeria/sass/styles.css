@@ -1,0 +1,272 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  width: 20%;
+  height: 2.5em;
+  border: none;
+  color: #fff;
+  background-color: #049A37;
+}
+
+section {
+  padding: 5%;
+  overflow: hidden;
+}
+section p.grayish-section-number {
+  position: absolute;
+  margin-top: -6%;
+  font-size: 7em;
+  font-weight: 700 !important;
+  opacity: 0.05;
+}
+
+.flex {
+  display: flex;
+  flex-flow: wrap;
+}
+
+.three-column-flex-container div.column {
+  flex: 20%;
+  margin: 0 2.5%;
+}
+.three-column-flex-container div.column h2 {
+  margin-bottom: 5%;
+}
+.three-column-flex-container div.column p {
+  color: #666;
+  font-weight: 100;
+  line-height: 1.7em;
+}
+.three-column-flex-container div.heading-column h1 {
+  font-size: 2em;
+  font-weight: 700;
+  margin-left: 15%;
+}
+
+.item-card {
+  border: 1px solid #F1F1F1;
+  background-color: #FAFAFA;
+}
+.item-card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 5%;
+}
+.item-card div.text-contents {
+  padding: 0 5%;
+}
+.item-card div.text-contents h3 {
+  color: #333;
+  font-size: 0.875em;
+  font-weight: 700;
+}
+.item-card div.text-contents h4 {
+  margin: 5% 0 2%;
+  color: #333;
+  font-size: 0.75em;
+  font-weight: 400;
+}
+.item-card div.text-contents h5 {
+  color: #666;
+  font-size: 0.75em;
+  font-weight: 100;
+}
+.item-card div.text-contents address {
+  margin: 5% 0;
+  font-size: 0.75em;
+  font-style: normal;
+}
+
+footer {
+  color: #FFF;
+}
+footer section.column {
+  padding: 5%;
+}
+footer .left-column {
+  flex: 30%;
+  background-color: #049A37;
+}
+footer .left-column p {
+  margin-top: 10%;
+}
+footer .right-column {
+  flex: 70%;
+  background-color: #222;
+}
+footer .right-column .column {
+  flex: 33.33%;
+}
+footer .right-column .column ul li {
+  margin: 5% 0;
+}
+footer .right-column .contact-us form input[type=email],
+footer .right-column .contact-us form textarea {
+  display: block;
+  width: 100%;
+  margin: 5% 0;
+  padding: 5%;
+  border: 1px solid #FFF;
+  color: #FFF;
+  background: #000;
+  font-family: sans-serif;
+}
+footer .right-column .contact-us form input {
+  height: 2.5em;
+}
+footer .right-column .contact-us form textarea {
+  height: 10em;
+}
+footer .right-column .contact-us form button {
+  width: 100%;
+}
+
+header {
+  width: 100%;
+}
+header nav {
+  padding: 2% 5% 0;
+  margin-bottom: -5%;
+  color: #fff;
+  overflow: hidden;
+}
+header nav img {
+  float: left;
+}
+header nav ul {
+  float: right;
+  width: 50%;
+}
+header nav ul li {
+  flex: 20%;
+  font-weight: 400;
+}
+header nav ul li button {
+  width: 100%;
+  margin-top: -5%;
+  font-size: 1em;
+}
+
+section.hero {
+  padding-top: 15%;
+  padding-bottom: 15%;
+  background: url("../images/hero.jpg") no-repeat center;
+  background-size: cover;
+}
+section.hero h1 {
+  margin: 0 45% 0 0;
+  color: #fff;
+  font-size: 3em;
+  font-weight: 700;
+}
+
+section.about div.heading-column a {
+  display: block;
+  margin: 20% 0 0 20%;
+}
+section.about div.heading-column a i {
+  padding-left: 10%;
+}
+
+section.about,
+section.featured-places {
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+}
+
+section.featured-places div.heading-column {
+  padding-top: 10%;
+}
+
+section.g2n-foods div.flex-the-heading .left-column {
+  flex: 60%;
+  padding: 10% 5%;
+  background-color: #F1F1F1;
+}
+section.g2n-foods div.flex-the-heading .left-column h1 {
+  margin: 0 60% 5% 0;
+}
+section.g2n-foods div.flex-the-heading .right-column {
+  flex: 40%;
+  padding: 10% 5%;
+  text-align: right;
+}
+section.g2n-foods div.flex-the-heading .right-column img {
+  position: absolute;
+  margin: -5% 0 0 -45%;
+}
+section.g2n-foods div.flex-the-heading .right-column p.grayish-section-number {
+  position: unset;
+  margin: unset;
+  margin: 0 0 -20% 10%;
+}
+section.g2n-foods div.three-column-flex-container {
+  margin: 5% 0 0;
+}
+section.g2n-foods div.three-column-flex-container .column {
+  margin: 0 2.5%;
+}
+section.g2n-foods div.three-column-flex-container .first-column {
+  margin-left: 0;
+}
+section.g2n-foods div.three-column-flex-container .third-column {
+  margin-right: 0;
+}
+
+section.blogs {
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+}
+section.blogs div.heading-column {
+  padding-top: 10%;
+}
+
+section.mcdonalds .left-column {
+  flex: 65%;
+}
+section.mcdonalds .left-column img {
+  width: 100%;
+}
+section.mcdonalds .right-column {
+  flex: 35%;
+  text-align: center;
+}
+section.mcdonalds .right-column address {
+  margin: 5% 20%;
+  font-size: 0.875em;
+  font-style: normal;
+}
+section.mcdonalds .right-column p {
+  margin: 2% 20%;
+  font-size: 0.75em;
+  color: #666;
+}
+section.mcdonalds .right-column button {
+  width: 30%;
+}
+
+/*# sourceMappingURL=styles.css.map */

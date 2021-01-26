@@ -1,0 +1,60 @@
+footer {
+    color: #FFF;
+
+    section.column {
+        padding: 5%;
+    }
+
+    .left-column {
+        flex: 30%;
+        background-color: $button-bg-color;
+
+        p {
+            margin-top: 10%;
+        }
+    }
+
+    .right-column {
+        flex: 70%;
+        background-color: $footer-darkish-bg-color;
+
+        .column {
+            flex: 33.33%;
+
+            ul {
+                li {
+                    margin: 5% 0;
+                }
+            }
+        }
+
+        .contact-us {
+            form {
+                input[type = "email"],
+                textarea {
+                    display: block;
+                    width: 100%;
+                    margin: 5% 0;
+                    padding: 5%;
+                    border: 1px solid #FFF;
+                    color: #FFF;
+                    background: #000;
+                    font-family: sans-serif;
+                }
+
+                input {
+                    height: 2.5em;
+                }
+
+                textarea {
+                    height: 10em;
+                }
+
+                button {
+                    width: 100%;
+                }
+
+            }
+        }
+    }
+}

@@ -1,0 +1,106 @@
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    width: 20%;
+    height: 2.5em;
+    border: none;
+    color: #fff;
+    background-color: $button-bg-color;
+}
+
+section {
+    padding: 5%;
+    overflow: hidden;
+
+    // The Watermark Section Numbers (01, 02, etc.)
+    p.grayish-section-number {
+        position: absolute;
+        margin-top: -6%;
+        font-size: 7em;
+        font-weight: 700 !important; // affects the (.three-column-flex-container div.column p) styling of font-weight: 100;
+        opacity: 0.05;
+    }
+}
+
+.flex {
+    display: flex;
+    flex-flow: wrap;
+}
+
+
+.three-column-flex-container {
+    div.column {
+        flex: 20%;
+        margin: 0 2.5%;
+
+        h2 {
+            margin-bottom: 5%;
+        }
+
+        p {
+            color: $grayish-text-color;
+            font-weight: 100;
+            line-height: 1.7em;
+        }
+    }
+
+    div.heading-column {
+        h1 {
+            font-size: 2em;
+            font-weight: 700;
+            margin-left: 15%;
+        }
+    }
+}
+
+.item-card {
+    border: 1px solid #F1F1F1;
+    background-color: #FAFAFA;
+
+    img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 5%;
+    }
+
+    div.text-contents {
+        padding: 0 5%;
+
+        h3 {
+            color: $very-dark-gray;
+            font-size: 0.875em;
+            font-weight: 700;
+        }
+
+        h4 {
+            margin: 5% 0 2%;
+            color: $very-dark-gray;
+            font-size: 0.75em;
+            font-weight: 400;
+        }
+
+        h5 {
+            color: $grayish-text-color;
+            font-size: 0.75em;
+            font-weight: 100;
+        }
+
+        address {
+            margin: 5% 0;
+            font-size: 0.75em;
+            font-style: normal;
+        }
+    }
+}
