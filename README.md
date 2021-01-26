@@ -1,29 +1,10 @@
-# Practiceeeeeeeeeeeeeeeeeeeeee 🤸🏻‍♂️
+## Designs from [Ozenua UIUX][ozenua]
 
-Random Designs I implement
+He was kind enough to drop designssss for kids like me to implement
 
-I get most of the inspiration from Youtube and [Website Idea Generator][web-idea-gen]
-
-Go downnnnnnnnn to see the links to hosted sites
-
-Feel free to: 
-
-- star,
-- fork,
-- share _anddddddddddddd_
-- send feedback. 
-
-Thanksssssssssssssss.
-
-**Open the links in new tabs** 😍
+#### Hosted Links y'all:
+* [Gateway to Nigeria][g2n]
 
 
-- [Contact Form][contact-form]
-
-[web-idea-gen]: https://www.websiteideagenerator.com
-[animated-scrolling]: https://
-[contact-form]: https://adevcalledbravo.github.io/Practice/Contact%20form/index.html
-
-
-
-Pardon my exaggerations, I was pretty hyperactive typing this Readme file 😅
+[ozenua]: https://twitter.com/
+[g2n]: https://zeroth-bravo.github.io/Practice/GatewaytoNigeria
