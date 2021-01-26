@@ -1,10 +1,10 @@
-# Practice
-## This repository contains all designs I implement, that are not from official sites like frontendmentor.io, etc
-## Below are links to hosted pages of all the folders here.
-## Feel free to star, fork, share and most importantly, send feedback on how I can improve. Thanks.
-#### Pssst... Open the links in new tabs 
-### [Animated Scrolling][1]
-### [Contact Form][2]
+### Random stuffs thrown in here
 
-[1]: https://
-[2]: https://adevcalledbravo.github.io/Practice/Contact%20form/index.html
+Opoooor. You're finally here
+
+This branch contain stuffs that I couldn't place an owner on
+
+Would you like to [claim][claim] them? 😛
+
+
+[claim]: https://flutterwave.com/pay/chillwithbravo
